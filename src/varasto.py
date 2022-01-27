@@ -7,15 +7,6 @@ class Varasto:
             self.tilavuus = 0.0
 
         self.saldo = self._validoi_saldo(alku_saldo, tilavuus)
-        #if alku_saldo < 0.0:
-            # virheellinen, nollataan
-        #    self.saldo = 0.0
-        #elif alku_saldo <= tilavuus:
-            # mahtuu
-        #    self.saldo = alku_saldo
-        #else:
-            # täyteen ja ylimäärä hukkaan!
-        #    self.saldo = tilavuus
 
     # MUUTOS
 
